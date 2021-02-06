@@ -54,18 +54,6 @@ const Team = () => (
                   <br />
                 </Card.Description>
               </Card.Content>
-              <Card.Content extra>
-                <a href="https://github.com/lucasmbarros">
-                  <Icon name="github" />
-                  Github
-                </a>
-              </Card.Content>
-              <Card.Content extra>
-                <a href="/">
-                  <Icon name="mail" />
-                  lucasmello.barros@gmail.com
-                </a>
-              </Card.Content>
             </Card>
           </Grid.Column>
         </Grid.Row>
