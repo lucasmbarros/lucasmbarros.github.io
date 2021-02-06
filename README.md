@@ -25,7 +25,7 @@ A portfolio, using React to help set me apart from other developers whose portfo
 
 ## Demonstration
 
-    pending
+https://mighty-peak-14092.herokuapp.com/
 
 ## Credits
 
