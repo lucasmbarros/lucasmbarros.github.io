@@ -1,0 +1,25 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "A place to share my projects not only if I'm applying for jobs or working as a freelancer but also so that I can share my work with fellow developers and collaborate on future projects.",
+  "main": "index.js",
+  "dependencies": {
+    "if-env": "^1.0.4",
+    "nodemailer-smtp-transport": "^2.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmbarros/react-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmbarros/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/lucasmbarros/react-portfolio#readme"
+}
