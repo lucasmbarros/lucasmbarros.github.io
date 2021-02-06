@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => (
   <Menu fixed="top" inverted>
     <Container>
-      <Menu.Item as="a" header>
+      <Menu.Item header>
         <Image
           size="mini"
           src="\logo192.png"
