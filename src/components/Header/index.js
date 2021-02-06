@@ -1,20 +1,6 @@
-import { createMedia } from "@artsy/fresnel";
 import PropTypes from "prop-types";
 import React, { Component } from "react";
-import {
-  Button,
-  Container,
-  Divider,
-  Grid,
-  Header,
-  Icon,
-  Image,
-  List,
-  Menu,
-  Segment,
-  Sidebar,
-  Visibility,
-} from "semantic-ui-react";
+import { Container, Header } from "semantic-ui-react";
 
 // import components
 import Navbar from "../Navbar/index";
@@ -24,7 +10,7 @@ const HomepageHeading = ({ mobile }) => (
     <Navbar />
     <Header
       as="h1"
-      content="Imagine-a-Company"
+      content="Lucas Barros"
       inverted
       style={{
         fontSize: mobile ? "2em" : "4em",
@@ -35,7 +21,7 @@ const HomepageHeading = ({ mobile }) => (
     />
     <Header
       as="h2"
-      content="Do whatever you want when you want to."
+      content="Portfolio"
       inverted
       style={{
         fontSize: mobile ? "1.5em" : "1.7em",
