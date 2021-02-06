@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Project from "../components/Projects";
-import { Segment, Header, Grid, Divider, Container } from "semantic-ui-react";
+import { Segment, Header, Divider, Container } from "semantic-ui-react";
 import "semantic-ui-css/semantic.min.css";
 
 function Portfolio() {
