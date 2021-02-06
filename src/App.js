@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // import pages
 import About from "./pages/About";
@@ -9,13 +10,14 @@ import Resume from "./pages/Resume";
 import Home from "./pages/Home";
 
 // import components
-import Header from "./components/Header";
+import HeaderComp from "./components/Header";
 import Footer from "./components/Footer";
 
 function App() {
   return (
+    <Router>
     <>
-      <Header />
+      <HeaderComp />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
@@ -25,6 +27,7 @@ function App() {
       </Switch>
       <Footer />
     </>
+    </Router>
   );
 }
 
