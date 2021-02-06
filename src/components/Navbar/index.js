@@ -20,6 +20,7 @@ const Navbar = () => (
       <Menu.Item as={Link} to="/about">About</Menu.Item>
       <Menu.Item as={Link} to="/portfolio">Portfolio</Menu.Item>
       <Menu.Item as={Link} to="/resume">Resume</Menu.Item>
+      <Menu.Item as={Link} to="/contact">Contact</Menu.Item>
     </Container>
   </Menu>
 );

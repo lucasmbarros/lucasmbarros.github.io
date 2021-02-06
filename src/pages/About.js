@@ -47,7 +47,7 @@ const Team = () => (
                   <a href="/">Portfolio</a>
                 </Card.Meta>
                 <Card.Description>
-                  javascript <br />
+                  Javascript <br />
                   Html <br />
                   CSS <br />
                   MERN
