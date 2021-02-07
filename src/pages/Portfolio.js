@@ -8,7 +8,7 @@ function Portfolio() {
     {
       name: "Web-Buffet",
       url: "https://glacial-atoll-63430.herokuapp.com/",
-      github: "https://github.com/JoshCarter8400/project-3",
+      github: "https://github.com/JoshCarter8400/web-buffet",
       image: "web-buffet.png",
     },
     {
