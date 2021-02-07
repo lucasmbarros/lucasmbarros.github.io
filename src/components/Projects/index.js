@@ -12,11 +12,11 @@ const Project = ({ project }) => {
         />
         <Card.Content>
           <Card.Header>
-            <a href={project.url}>{project.name}</a>
+            <a href={project.url} target="_blank">{project.name}</a>
           </Card.Header>
         </Card.Content>
         <Card.Content extra>
-          <a href={project.github}>
+          <a href={project.github} target="_blank">
             <Icon name="github" />
             Repository
           </a>

@@ -32,7 +32,7 @@ function Portfolio() {
           Portfolio
         </Header>
       </Divider>
-      <Container text>
+      <Container text textAlign="center">
         <Segment>
           {projects.map((project, i) => (
             <Project project={project} key={i}></Project>

@@ -43,9 +43,6 @@ const Team = () => (
               <Image src="/images/lucas.png" wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Developing since 2020</Card.Header>
-                <Card.Meta>
-                  <a href="/">Portfolio</a>
-                </Card.Meta>
                 <Card.Description>
                   Javascript <br />
                   Html <br />
