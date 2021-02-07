@@ -29,7 +29,7 @@ function Portfolio() {
     <>
       <Divider horizontal>
         <Header as="h1" style={{ fontSize: "4em" }}>
-          About Me
+          Portfolio
         </Header>
       </Divider>
       <Container text>
